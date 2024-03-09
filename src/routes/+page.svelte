@@ -1,2 +1,2 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Tabletop Digital Tools</h1>
+<p>This is a collection of tools for tabletop games I think are neat!</p>
