@@ -22,4 +22,9 @@
 		display: grid;
 		grid-template-columns: 200px 60ch;
 	}
+
+	nav {
+		font-family: 'Big Shoulders Stencil Display', sans-serif;
+		font-variation-settings: 'wght' 800;
+	}
 </style>

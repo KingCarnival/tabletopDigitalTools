@@ -24,4 +24,7 @@
 		display: grid;
 		grid-template-columns: 200px 60ch;
 	}
+	nav {
+		font-family: Baldur;
+	}
 </style>

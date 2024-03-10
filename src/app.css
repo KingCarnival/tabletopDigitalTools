@@ -2,3 +2,11 @@
 	font-family: 'Baldur';
 	src: local('/static/fonts/Baldur.ttf');
 }
+
+.container {
+	display: flex;
+}
+
+p {
+	font-family: 'Nunito Sans', sans-serif;
+}

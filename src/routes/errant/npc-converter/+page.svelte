@@ -51,7 +51,7 @@
 		</form>
 	</main>
 	<article>
-		<header>{name}</header>
+		<header><h2>{name}</h2></header>
 		<p>
 			Threat {threat}, HP {hitProtection}, ATT {attacks}, MV {movementDice}, ML {morale}, AL
 			<i>{alignment}</i>
@@ -66,6 +66,6 @@
 		font-family: Baldur;
 	}
 	article {
-		width: max-content;
+		max-width: fit-content;
 	}
 </style>
