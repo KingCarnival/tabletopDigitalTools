@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '@picocss/pico';
 	import '../app.css';
+	import 'iconify-icon';
 	import { fade } from 'svelte/transition';
 
 	export let data;
@@ -10,9 +11,11 @@
 	<div>
 		{#key data.url}
 			<div in:fade={{ duration: 300, delay: 300 }} out:fade={{ duration: 300 }}>
-				<nav>
+				<nav class="container">
 					<ul>
-						<li><a href="/">Home</a></li>
+						<li>
+							<a href="/">Home</a>
+						</li>
 						<li><a href="/">About</a></li>
 					</ul>
 					<ul>
@@ -34,3 +37,6 @@
 		{/key}
 	</div>
 </main>
+
+<style>
+</style>
