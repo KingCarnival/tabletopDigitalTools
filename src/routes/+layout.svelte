@@ -1,7 +1,6 @@
 <script lang="ts">
 	import '@picocss/pico';
 	import '../app.css';
-	import 'iconify-icon';
 	import { fade } from 'svelte/transition';
 
 	export let data;
